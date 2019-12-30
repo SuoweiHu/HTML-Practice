@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        form表单标签学习:
+            作用为手机并提交用户数据给指定的服务器
+            Form只会手机其标签内部的数据
+            属性:
+                action 收集的数据的提交地址也就是URl
+                method 收集数据的提交方式
+                    get 适合小量的数据(不加密传输)
+                    post 适合大量的数据(加密传输)
+        form表单域标签学习:
+            作用为给用户提供可以进行数据书写或者选择的biaoqian.
+
+        form表单标签的使用
+     -->
+     <h1>Form表单标签学习</h1>
+     <form action="php" method="POST">
+        用户:<input type="text" name="user_name" /><br/>
+        密码:<input type="password" name="password" /><br/>
+        <input type="submit" value="Submit">
+     </form>
+
+</body>
+</html>

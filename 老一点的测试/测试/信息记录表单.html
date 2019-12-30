@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="php" method="get" name="basic_info">
+
+    <h1>用户记录表单</h1>
+    <fieldset>
+        <legend>基础信息记录</legend>
+        <p>First Name:<input type="text" name="first name" placeholder="请输入姓名" autofocus autocomplete/></p>
+        <p>Last Name:<input type="text" name="last name" placeholder="请输入姓名"/></p>
+        <p>
+Nationality:
+<select name="Nationality">
+    <option value="ch">中国</option>
+    <option value="ch(spec)" selected>中国(港澳台)</option>
+    <option value="en">英国</option>
+    <option value="us">美国</option>
+    <option value="su">苏联</option>
+</select>
+        </p>
+        <p>
+            <div name="Sextuality">
+            Sextuality:
+            Male<input type="radio" name="Sextuality" checked>
+            Female<input type="radio" name="Sextuality">
+            </div>
+        </p>
+        <p>
+            <div name="Profile">
+            Profile: <input type="file" name="Profile">
+            </div>
+        </p>
+        <div>
+            Contact Info:<br/>
+            Email:<input type="email" name="email" /><br/>
+            Phone:<input type="tel" name="tel" /><br/>
+            Mobile:<input type="tel" name="Phone" /><br/>
+            Website:<input type="url" name="url" /><br/>
+            <br/>
+            Other details:<br/>
+            Company:<input type="search" name="Company" /><br/>
+            Employ Count:<input type="range" name="Employ Count" /><br/>
+            Time:<input type="time" name="Time" /><br/>
+            Month:<input type="month" name="month" /><br/>
+            Year:<input type="year" name="year" /><br/>
+            Color:<input type="color" name="color" /><br/>
+            <br/>
+            你的自我介绍<br/>
+            <textarea name="self_intro" id="" cols="30" rows="10"></textarea>
+        </div>
+        <p>
+            <div>
+                Range of Usage: <br/>
+                Personal Range:<input type="checkbox" ><br/>
+                Commercial Usage (10+ Team):<input type="checkbox" name="RangeOfUsage"><br/>
+                Commercial Usage (100+ Team):<input type="checkbox" name="RangeOfUsage"><br/>
+                Commercial Usage (100+ Team):<input type="checkbox" name="RangeOfUsage"><br/>
+                Commercial Usage (10000+ Team):<input type="checkbox" name="RangeOfUsage"><br/>
+                Not Sure All Covered:<input type="checkbox" checked>
+            </div>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>用户条款信息</legend>
+        <article>
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+            dsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasddsadasd
+        </article>
+        <p>
+            I agree to above<input type="radio" name="Agreement_radio">          
+            I do not agree<input type="radio" name="Agreement_radio" checked>          
+        </p>
+        <p>
+            Subscription Detail:
+            <select>
+                <option>Do not subscribe</option>
+                <option>Subscribe to commercial ad</option>
+                <option>Subscribe to new product ad</option>
+                <option>Subscribe to all ads</option>
+            </select>
+        </p>
+        <p>
+            Ues cupon code:
+            <input type="text" name="cupon_code" />
+        </p>
+    </fieldset>
+
+    
+        <input type="submit" value="commit" />
+        <input type="reset" value="reset" />
+
+
+    
+
+    </form>
+</body>
+</html>

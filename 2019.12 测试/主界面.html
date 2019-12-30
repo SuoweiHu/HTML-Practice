@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 下面的frameset标签不能与body标签一起使用，详情参看上面的链接 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- rows表示水平切割，20%表示top页占整个页面的20%，*表示其余的占80% -->
+    <frameset rows="20%,*">
+        <frame src="左侧菜单栏.html"/>
+        <!-- cols表示垂直切割，20%表示left页占整个页面的20%，*表示其余的占80% -->
+        <frameset cols="20%,*">
+            <frame src="x.html"/>
+            <!-- cols表示垂直切割，60%表示left页占整个页面的20%，*表示其余的占40% -->
+            <frameset cols="60%,*">
+                <frame src="搜索网站汇总.html"/>
+                <frame src="常用链接汇总.html"/>
+            </frameset>
+        </frameset>
+    </frameset>
+
+</head>
+<body>
+    
+</body>
+</html>

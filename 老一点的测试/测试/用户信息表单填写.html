@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>注册页面</h1>
+    <hr>
+    <form action="php" method="get">
+        <table border="5px" cellspacing="0" cellpadding="5">
+            <tr height="35px">
+                <td width="100px">
+                    用户名称
+                </td>
+                <td widt="200px">
+                    <input type="text" name="user_name" id="">
+                </td>
+            </tr>
+            <tr height="35px">
+                <td width="100px">
+                    密码
+                </td>
+                <td widt="200px">
+                    <input type="password" name="password" id="">
+                </td>
+            </tr>
+            <tr height="35px">
+                <td>
+                    性别
+                </td>
+                <td>
+                    男<input type="radio" name="sex" value="male" checked="checked" id="">
+                    女<input type="radio" name="sex" value="female" id="">
+                </td>
+            </tr>
+            <tr height="35px">
+                <td>
+                    爱好
+                </td>
+                <td>
+                    篮球<input type="checkbox" name="hobby" value="basketball" id="">
+                    足球<input type="checkbox" name="hobby" value="footbal" id="">
+                    羽毛球<input type="checkbox" name="hobby" value="badminton" id="">
+                    其他<input type="checkbox" name="hobby" value="other" id="">
+                </td>
+            </tr>
+            <tr height="35px">
+                <td>
+                    籍贯
+                </td>
+                <td>
+                    <select name="city" id="">
+                        <option value="sh">上海</option>
+                        <option value="hz">杭州</option>
+                        <option value="bj">北京</option>
+                        <option value="hlj">黑龙江</option>
+                        <option value="other">其他</option>
+                    </select>
+                </td>
+            </tr>
+            <tr height="35px">
+                <td>
+                    个人介绍
+                </td>
+                <td>
+                    <textarea name="personal_intro" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr height="35px">
+                <td colspan="2" align="center">
+                    是否统一本公司的协议<input type="checkbox" name="agreement" value=”checked“ id="">
+                </td>
+            </tr>
+            <tr height="35px">
+                <td colspan="2" align="center">
+                    <input type="submit" value="提交表单">
+                </td>
+            </tr>
+        </table>
+    </form>
+   
+
+</body>
+</html>

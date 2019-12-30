@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>学了三个域:</h2>
+    <ol>
+        <li>文本域 textarea 留言使用</li>
+        <li>文件域 input type="file" 上传文件的</li>
+        <li>表单域 form 手机表单控件信息并且可提交</li>
+    </ol>
+
+    <h2>表单域名(使用get)</h2>
+    <form action="php" method="get" name="get_upload">
+        <p> 用户名: <input type="text" name="username" id="" /> </p>
+        <p> 密码: <input type="password" name="password" id="" /></p>
+        <input type="submit" value="提交">
+        <input type="reset" value="重制">
+    </form><br/>
+
+
+    <h2>表单域名(使用post)</h2>
+    <form action="php" method="post" name="post_upload">
+        <p> 用户名: <input type="text" name="username" id="" /> </p>
+        <p> 密码: <input type="password" name="password" id="" /></p>
+        <input type="submit" value="提交">
+        <input type="reset" value="重制">
+    </form><br/>
+
+    <h2>form的属性</h2>
+    <ol>
+        <li>get会显示内容,不可以作为密码的提交,速度较快</li>
+        <li>post不显示内容,较为安全,但是速递比较慢</li>
+        <li>使用name区别不同的表单(的提交)</li>
+    </ol>
+
+</body>
+</html>

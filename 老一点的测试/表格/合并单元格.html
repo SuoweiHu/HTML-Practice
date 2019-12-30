@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>表格示例</h1>
+
+    <table border="5">
+        <caption>
+            表格标题
+        </caption>
+        <thead>
+            <tr>
+                <th>名字</th>
+                <th>性别</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+
+       <tbody>
+            <tr>
+                <!-- 跨列合并单元格: 合并主体的第一行第一列和第一行第二列 -->
+                <td colspan="2">1</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>22</td>
+                <!-- 跨行合并单元格: 合并主体的第二行第三列和第三行第三列 -->
+                <td rowspan="2">222</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>33</td>
+            </tr>
+       </tbody>
+    
+    </table>
+</body>
+</html>

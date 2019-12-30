@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 下面的frameset标签不能与body标签一起使用，详情参看上面的链接 -->
+    <frameset rows="20%,*"><!-- rows表示水平切割，20%表示top页占整个页面的20%，*表示其余的占80% -->
+        <frame src="top.html"/>
+        <frameset cols="20%,*"><!-- cols表示垂直切割-->
+            <frame src="left.html"/>
+            <frameset cols="60%,*">
+                <frame src="搜索网站汇总.html"/>
+                <frame src="常用网站汇总.html"/>
+            </frameset>
+        </frameset>
+    </frameset>
+
+</head>
+<body>
+    
+</body>
+</html>
